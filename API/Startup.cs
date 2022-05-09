@@ -60,6 +60,8 @@ namespace API
             // app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseStaticFiles();
+            // app.UseDefaultFiles();
 
             app.UseAuthorization();
 
